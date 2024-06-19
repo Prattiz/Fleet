@@ -1,0 +1,17 @@
+default styles -->
+
+import styled from "styled-components/native";
+import theme from '../../styles';
+
+export const Container = styled.View`
+
+    
+`
+
+default functions --> 
+
+export function () {
+  return (
+    
+  );
+}

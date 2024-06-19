@@ -1,12 +1,20 @@
-import { Text, View } from 'react-native';
+import { Container, Title, Slogan } from './styles';
+
+import backgroundImg from '../../../assets/background.png'
+import { Button } from '../../../components/Button';
 
 
 export function SingIn() {
   return (
-    <View>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      
-    </View>
+    <Container source={backgroundImg}>
+      <Title>Ignite Fleet</Title>
+
+      <Slogan>
+        Gestão de uso de veículos
+      </Slogan>
+
+      <Button title='Entrar com Google' />
+    </Container>
   );
 }
 
